@@ -4,8 +4,8 @@
     <!--  -->
     <item android:state_selected="true" android:color="#ffff4b9b"/>
     <item android:state_focused="true" android:color="#ffff4b9b"/>
-    <item android:state_pressed="true" android:color="#ffff4b9b"/>
-    <item android:state_checked="true" android:color="#ffff4b9b"/>
+    <item android:state_pressed="true" android:color="#080808"/>
+    <item android:state_checked="true" android:color="#013286"/>
     <item android:color="@color/white"/>
 
 </selector><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/drawable/wp_text_selector.xml -->
