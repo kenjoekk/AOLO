@@ -60,6 +60,8 @@
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 />
 
 <ImageView
@@ -193,4 +195,4 @@
    
 
 </LinearLayout>
-<!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/layout/fragment_identity.xml -->
+<!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_identity.xml -->
