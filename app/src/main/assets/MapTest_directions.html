@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>Waypoints in directions</title>
+<style>
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	height: 100%;
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+
+#directions-panel {
+	font-family: 'Roboto', 'sans-serif';
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 12px;
+	margin-top: 20px;
+	background-color: #FFEE77;
+	padding: 10px;
+}
+</style>
+</head>
+<body>
+<body>
+	<div id="map"></div>
+
+	<div name="route">
+		<input type="hidden" name="start" value=""> <input
+			type="hidden" name="waypoints" value=""> <input type="hidden"
+			name="end" value="">
+	</div>
+	<div id="directions-panel"></div>
+
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+	async defer></script>
+<script type="text/javascript">
+	var start, end;
+	var waypoint = [];
+	var directionsService, directionsDisplay;
+
+	function initMap() {
+		//啟動導航服務
+		directionsService = new google.maps.DirectionsService;
+		directionsDisplay = new google.maps.DirectionsRenderer({
+			draggable : true,
+			map : map,
+			panel : document.getElementById('directions-panel')
+		});
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom : 16,
+			center : {
+				lat : 24.146538,
+				lng : 120.650643
+			}
+		});
+		//將路徑顯示在右邊欄
+		directionsDisplay.setMap(map);
+		directionsDisplay.setPanel(document.getElementById("directions-panel"));
+		var control = document.getElementById('directions-panel');
+		control.style.display = "block";
+	}
+	//顯示來自android的訊息
+	function showInfoFromJava(msg) {
+
+		start = "24.150595, 120.650966";
+		end = "24.157194, 120.666670";
+		waypoint = [ "24.145087, 120.645461", "24.155147, 120.639213" ];
+		calculateAndDisplayRoute(directionsService, directionsDisplay);
+	}
+	/* showInfoFromJava("hello"); */
+
+	function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+
+		var waypts = [];
+		waypts.push({
+			location : waypoint[0],
+			stopover : true
+		});
+		waypts.push({
+			location : waypoint[1],
+			stopover : true
+		});
+
+		//alert(waypoint.length + "; " + waypoint[0]);
+		directionsService
+				.route(
+						{
+							origin : start,
+							destination : end,
+							waypoints : waypts,
+							optimizeWaypoints : true,
+							travelMode : google.maps.TravelMode.DRIVING
+						},
+						function(response, status) {
+
+							if (status === google.maps.DirectionsStatus.OK) {
+								directionsDisplay.setDirections(response);
+							} else {
+								document.getElementById("right-panel").innerHTML = 'Directions request failed due to '
+										+ status;
+							}
+						});
+	}
+</script>
+</body>
+
+</html>

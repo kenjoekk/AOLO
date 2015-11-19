@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	height: 100%;
+}
+</style>
+</head>
+<body>
+	<!-- <input type='button' value='ok' onclick='moveTO()''> -->
+	<div id="map"></div>
+	<script type="text/javascript">
+		var map, marker,poly;
+		function initMap() {
+
+			map = new google.maps.Map(document.getElementById('map'), {
+				/*key center value {
+					lat : 24.151715,
+					lng : 120.649856
+				}
+				,key zoom value 15 */
+				center : {lat : 24.155671,lng : 120.661179},
+				zoom : 15
+			});
+			 poly =new google.maps.Polyline({
+				
+				strokeColor: '#ff0000',
+			    strokeOpacity: 1.0,
+			    strokeWeight: 3
+				
+			});
+			 poly.setMap(map);
+			 
+			 
+			 
+			
+			
+			
+			map.addListener("click", function(e) {
+				var myClick = e.latLng;
+				var latClick, lngClick;
+				var path =poly.getPath();
+				
+				
+				
+				latClick = myClick.lat();
+				lngClick = myClick.lng(); 
+				
+				path.push(e.latLng);
+				
+				marker = new google.maps.Marker({
+					map : map,
+					position :{lat: latClick, lng:lngClick},
+					
+					
+					});
+				 
+			
+			});
+		}
+
+		function moveTO(newlat, newlng) {
+			map.setCenter({lat : newlat,lng : newlng});
+			/* map.setCenter({lat:24.151715,lng : 120.649856}); */
+
+		}
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+		/*?key value key是之前用的現在不用了 & callball=initMap 叫這個方法  */
+	</script>
+</body>
+</html>

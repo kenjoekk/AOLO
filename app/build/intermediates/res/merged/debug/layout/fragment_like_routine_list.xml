@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1.0"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="@drawable/testimg"
+            android:id="@+id/routineImg"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:weightSum="1.0"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="標題"
+            android:layout_weight="0.3"
+            android:id="@+id/routineTitle"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="長度"
+            android:layout_weight="0.3"
+            android:id="@+id/routineLength"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="建立者"
+            android:layout_weight="0.3"
+            android:id="@+id/routineBuilder"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_like_routine_list.xml -->

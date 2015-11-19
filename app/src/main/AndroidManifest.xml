@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.library.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.library.activity.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name="com.library.activity.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.library.activity.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.library.fragment.RankFragment"
+            android:label="@string/RankFragment" >
+        </activity>
+        <activity
+            android:name="com.library.fragment.IdentityFragment"
+            android:label="@string/IdentityFragment" >
+        </activity>
+        <activity
+            android:name="com.library.fragment.FriendFragment"
+            android:label="@string/FriendFragment" >
+        </activity>
+        <activity
+            android:name="com.library.fragment.FindFriendFragment"
+            android:label="@string/FindFriendFragment" >
+        </activity>
+
+        <activity
+            android:name="com.library.fragment.RoutineLikeFragment"
+            android:label="@string/RoutineAFragment" >
+        </activity>
+        <activity
+            android:name="com.library.fragment.RoutineCmdFragment"
+            android:label="@string/RoutineBFragment" >
+        </activity>
+        <activity
+            android:name="com.library.fragment.RoutineDesignFragment"
+            android:label="@string/RoutineCFragment" >
+        </activity>
+        <activity
+            android:name="com.library.activity.Login"
+            android:label="@string/Login" >
+        </activity>
+        <activity
+            android:name="com.library.activity.StartActivity"
+            android:label="@string/StartActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation"
+            >
+        </activity>
+        <activity
+            android:name="com.library.activity.StartRunActivity"
+            android:label="@string/StartRunActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation"
+            >
+        </activity>
+        <activity
+            android:name="com.library.activity.ExitActivity"
+            android:label="@string/ExitActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation"
+            >
+        </activity>
+        <activity
+            android:name="com.library.activity.ShareActivity"
+            android:label="@string/Share" >
+        </activity>
+    </application>
+
+</manifest>

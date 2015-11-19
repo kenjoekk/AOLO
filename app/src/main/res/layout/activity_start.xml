@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <Button
+        android:id="@+id/set"
+        android:onClick="set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="SET"
+
+        />
+    <Button
+        android:id="@+id/start"
+        android:onClick="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/set"
+        android:layout_alignParentBottom="true"
+        android:text="START"
+
+        />
+    <Button
+        android:id="@+id/missionNormal"
+        android:onClick="missionNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/start"
+        android:layout_alignParentBottom="true"
+        android:text="MissionNormal"
+
+        />
+    <Button
+        android:id="@+id/missionRoad"
+        android:onClick="missionRoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/missionNormal"
+        android:layout_alignParentBottom="true"
+        android:text="MissionRoad"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/zone_title_bg"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="10.0dip">
+
+        <ImageView
+            android:id="@+id/title_bar_left_menu"
+            android:layout_width="44.5dip"
+            android:layout_height="22.5dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="onClickLiftMenu"
+            android:paddingLeft="11.0dip"
+            android:paddingRight="11.0dip"
+            android:src="@drawable/icon_profile" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/iv_add"
+            android:layout_toRightOf="@+id/title_bar_left_menu"
+            android:gravity="center"
+            android:text="@string/goride"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="45.5dip"
+            android:layout_height="23.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="11.0dip"
+            android:paddingRight="11.0dip"
+
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/center"
+        android:layout_above="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_margin="20sp"
+        android:background="@drawable/rbg"
+        android:padding="5sp"
+
+         />
+
+    <Button
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20sp"
+        android:background="@drawable/start"
+        android:text="開始騎乘"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_ridebike.xml -->
