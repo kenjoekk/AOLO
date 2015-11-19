@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="chengse">#FF6600</color>
     <color name="hongse">#CC0033</color>
@@ -9,11 +9,11 @@
     <color name="transparent">#00000000</color>
     <color name="white">#ffffff</color>
     <color name="zone_title_bg">#000000</color>
-    <!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ExitActivity">ExitActivity</string>
     <string name="FindFriendFragment">FindFriendFragment</string>
@@ -50,7 +50,7 @@
     <string name="success">Success</string>
     <string name="timeAll">Time</string>
     <string name="title_activity_splash">SplashActivity</string>
-    <!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AnimTop2" parent="@android:style/Animation">  
     	<item name="android:windowEnterAnimation">@anim/push_top_in2</item>

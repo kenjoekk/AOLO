@@ -56,6 +56,11 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="#ffffff"
+                />
 
 <ImageView
     android:id="@+id/photo"
@@ -188,4 +193,4 @@
    
 
 </LinearLayout>
-<!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_identity.xml -->
+<!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/layout/fragment_identity.xml -->
