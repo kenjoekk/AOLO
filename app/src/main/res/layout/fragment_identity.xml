@@ -56,33 +56,29 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:id="@+id/photo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/start"
-                >
-<ImageView
-
-    android:layout_marginTop="15dp"
-    android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
-    android:layout_marginBottom="15dp"
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:background="@drawable/photo"
-    android:id="@+id/identityPhoto"
 
 
+<RelativeLayout
+    android:id="@+id/photo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/allstyle"
+    >
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
 
-    />
-            </LinearLayout>
+                android:background="@drawable/photo"
+                 />
+</RelativeLayout>
             <LinearLayout
                 android:id="@+id/identity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:orientation="vertical"
+                android:background="@drawable/allstyle"
                 android:layout_toRightOf="@+id/photo"
                 android:layout_alignBottom="@+id/photo"
                 android:layout_alignParentRight="true"
@@ -118,6 +114,7 @@
                 android:orientation="horizontal"
                 android:layout_below="@+id/identity"
                 android:weightSum="1"
+                android:background="@drawable/allstyle"
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -183,6 +180,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/speed"
+                android:background="@drawable/allstyle"
                 >
 
 
