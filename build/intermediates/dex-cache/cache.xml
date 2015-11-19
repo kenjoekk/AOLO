@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\acer\Desktop\n\AOLO\app\libs\nineoldandroids-library-2.4.0.jar"
+        jar="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/libs/nineoldandroids-library-2.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\acer\Desktop\n\AOLO\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0-eec73025d29f63e11ee90c3b098363d3ec8a931f.jar" />
+        <dex dex="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-dfe3790d508f9968ba7aa1ff364c5ec25c2bb69b.jar" />
     </item>
     <item
-        jar="C:\Users\acer\Desktop\n\AOLO\app\libs\volley.jar"
+        jar="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/libs/volley.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="b06fd24c136011eeeb24ac056623c93fdd53b5fa">
-        <dex dex="C:\Users\acer\Desktop\n\AOLO\app\build\intermediates\pre-dexed\debug\volley-e67f825711699065bcc0bf19af181430a097c82e.jar" />
+        <dex dex="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/pre-dexed/debug/volley-7b0f69b42fd9b0d12917ac701b90c270ada5ec6e.jar" />
     </item>
     <item
-        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="/Users/joseph/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\acer\Desktop\n\AOLO\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-1ecccc5fe9080eddfec7b378bc91e76264b8f459.jar" />
+        <dex dex="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-1deb667a6e901252860306cacdde6b15e8aa30bc.jar" />
     </item>
 
 </items>

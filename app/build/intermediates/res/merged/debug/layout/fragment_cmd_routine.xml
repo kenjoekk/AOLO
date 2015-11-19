@@ -8,7 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".JieYueLiShiFragment" >
 
-
     <ImageButton
         android:id="@+id/cmdImg"
         android:layout_width="50dp"
@@ -16,16 +15,22 @@
         android:background="@drawable/testimg"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-         />
+        />
+
+
+
     <ListView
         android:id="@+id/cmdList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/cmdImg"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:listSelector="@drawable/colortest"
         >
 
     </ListView>
 
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/layout/fragment_cmd_routine.xml -->
+<!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_cmd_routine.xml -->

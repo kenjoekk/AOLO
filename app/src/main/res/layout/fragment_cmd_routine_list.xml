@@ -4,11 +4,18 @@
     android:layout_height="wrap_content"
     android:weightSum="1.0"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        android:background="@drawable/a03"
+        android:layout_margin="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.7"
+        android:layout_margin="10dp"
         >
         <ImageView
             android:layout_width="wrap_content"
@@ -23,31 +30,43 @@
         android:layout_height="match_parent"
         android:layout_weight="0.3"
         android:orientation="vertical"
-        android:weightSum="1.0"
+        android:padding="10dp"
+
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="標題"
-            android:layout_weight="0.3"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
             android:id="@+id/routineCmdTitle"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="長度"
-            android:layout_weight="0.3"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:textStyle="normal"
+            android:textSize="20dp"
             android:id="@+id/routineCmdLength"
+            android:layout_weight="1"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="建立者"
-            android:layout_weight="0.3"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:gravity="right"
+            android:textSize="20dp"
             android:id="@+id/routineCmdBuilder"
+            android:layout_weight="1"
             />
 
     </LinearLayout>
 
-
+</LinearLayout>
 </LinearLayout>

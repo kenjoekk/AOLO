@@ -87,6 +87,10 @@
             android:name="com.library.activity.ShareActivity"
             android:label="@string/Share" >
         </activity>
+        <activity
+            android:name="com.library.activity.Data"
+            android:label="@string/Data" >
+        </activity>
     </application>
 
 </manifest>

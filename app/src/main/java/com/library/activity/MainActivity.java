@@ -231,7 +231,7 @@ public class MainActivity extends FragmentActivity implements
 
         // attach to current activity;
         resideMenu = new ResideMenu(this);
-        resideMenu.setBackground(R.drawable.test);
+        resideMenu.setBackground(R.drawable.a05);
         resideMenu.attachToActivity(this);
 
         resideMenu.setMenuListener(menuListener);

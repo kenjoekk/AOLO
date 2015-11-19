@@ -94,8 +94,8 @@ public class RecodeFragment extends Fragment {
         recordTimesMap.put(rmTimef[0], "date");
         recordTimesMap.put(rmTimef[1], "distance");
         recordTimesMap.put(rmTimef[2], "heart");
-        recordTimesMap.put(rmTimef[3],"step");
-        recordTimesMap.put(rmTimef[4],"cal1");
+        recordTimesMap.put(rmTimef[3], "step");
+        recordTimesMap.put(rmTimef[4], "cal1");
         recordTimesMap.put(rmTimef[5],"cal2");
         recordTimesMap.put(rmTimef[6],"time1");
         recordTimesMap.put(rmTimef[7], "time2");
