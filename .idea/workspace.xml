@@ -22,9 +22,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="615ef9d9-952c-4a78-b347-4dcc8614d329" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-d4d23df9c795a490b4c2b631b5d64f988078a4d8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7126a181683816e55907cdd5c76eaf0b303aa27e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/volley-42ac335555cdf839c213aeb6d41e56d4e437050b.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AOLO＿new.iws" />
@@ -2219,7 +2216,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448017022299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增modelDBHelper, MyApplication, MySqlIO,SqliteIO">
+      <created>1448017773425</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1448017773425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
