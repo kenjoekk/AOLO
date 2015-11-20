@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgtest"
+    >
 
     <LinearLayout
         android:id="@+id/layout_zone"
@@ -117,4 +119,4 @@
 
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/layout/fragment_routine.xml -->
+</RelativeLayout><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_routine.xml -->

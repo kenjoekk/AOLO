@@ -43,7 +43,7 @@ public class ShareActivity extends Activity{
             @Override
             public void onClick(View v) {
 
-                Intent it =new Intent(ShareActivity.this, StartActivity.class);
+                Intent it =new Intent(ShareActivity.this, Data.class);
 
                 startActivityForResult(it,1);
             }
@@ -62,6 +62,8 @@ public class ShareActivity extends Activity{
 
 
         webView.loadUrl("file:///android_asset/MyMap.html");
+        webView.loadUrl("javascript:removeLine()");
+        //webView.loadUrl("javascript:drawLine(" + pathseekbar() + ")");
 
     }
     private class MyWebClient extends WebViewClient{
@@ -84,4 +86,39 @@ public class ShareActivity extends Activity{
             finish();
         }
     }
+//    public String pathseekbar() {
+//        String pathpoint = "";
+//
+//
+//        Cursor c = db.query("gpsall", null, "sid=? and date=?", new String[] { sId, getDate(dtvDate)[0] }, null, null,
+//                "time DESC,id DESC ");// 等同明碼SQL="select
+//        tv.setText("" + c.getCount());
+//
+//        c = db.query("gpsall", null, "sid=? and date=? and time<?",
+//                new String[] { sId, getDate(dtvDate)[0], getseekbartime() }, null, null, "time ,id");// 等同明碼SQL="select
+//        tv.append("/" + c.getCount());
+//
+//
+//        pathpoint += "[";
+//
+//        while (c.moveToNext()) {// c.moveToNext會傳回boolean值
+//
+//            String lat = c.getString(2);
+//            String lng = c.getString(3);
+//
+//
+//            pathpoint += "{lat:" + lat + ",lng:" + lng + "},";
+//            marklat = lat;
+//            marklng = lng;
+//
+//        }
+//        pathpoint += "]";
+//        wv.loadUrl("javascript:deleteMarkers()");
+//        if (c.getCount() != 0) {
+//            wv.loadUrl("javascript:markTo(" + marklat + "," + marklng + ")");
+//        }
+//
+//        return pathpoint;
+//
+//    }
 }

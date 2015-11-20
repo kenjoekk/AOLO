@@ -4,4 +4,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/title_bar_menu_on" />
     <item android:state_focused="true" android:drawable="@drawable/title_bar_menu" />
     <item android:drawable="@drawable/title_bar_menu" />
-</selector><!-- From: file:/C:/Users/acer/Desktop/n/AOLO/app/src/main/res/drawable/titlebar_menu_selector.xml -->
+</selector><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/drawable/titlebar_menu_selector.xml -->

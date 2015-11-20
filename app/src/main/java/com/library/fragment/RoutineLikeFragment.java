@@ -25,6 +25,7 @@ public class RoutineLikeFragment extends Fragment {
 	private LinkedList<Map<String,String>> rData=new LinkedList<Map<String, String>>();
 
 
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -33,6 +34,9 @@ public class RoutineLikeFragment extends Fragment {
 		listLikeRoute=(ListView)view.findViewById(R.id.listLikeRoute);
 
 
+
+		//找到你要设透明背景的layout 的id
+		//listLikeRoute.getBackground().setAlpha(100);//0~255透明度值
 		changeList();
 		return view;
 
@@ -42,9 +46,9 @@ public class RoutineLikeFragment extends Fragment {
 		Map<String,String> rMap =new HashMap<String, String>();
 
 		rMap.put(from[0], "img");
-		rMap.put(from[1], "title");
-		rMap.put(from[2], "length");
-		rMap.put(from[3], "length");
+		rMap.put(from[1], "武嶺挑戰之路");
+		rMap.put(from[2], "42Km");
+		rMap.put(from[3], "Joseph Oyoung");
 
 		rData.add(rMap);
 

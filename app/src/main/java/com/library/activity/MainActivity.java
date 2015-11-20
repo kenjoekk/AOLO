@@ -1,6 +1,7 @@
 package com.library.activity;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -20,10 +21,11 @@ import android.widget.Toast;
 
 import com.library.fragment.IdentityFragment;
 import com.library.fragment.RankFragment;
+import com.library.fragment.RecodeFragment;
 import com.library.fragment.RideBikeFragment;
 import com.library.fragment.RoutineFragment;
-import com.library.fragment.RecodeFragment;
 import com.library.fragment.SocietyFragment;
+import com.library.model.DBHelper;
 import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 
@@ -56,6 +58,7 @@ public class MainActivity extends FragmentActivity implements
     private ResideMenuItem itemXiangce;
     private ResideMenuItem itemShare;
     public boolean paagee =true;
+    private SQLiteDatabase db;
 
 
     DisplayMetrics dm = new DisplayMetrics();
@@ -66,11 +69,7 @@ public class MainActivity extends FragmentActivity implements
 
     private boolean is_closed = false;
     private long mExitTime;
-
-
     private String PIN;
-
-
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -121,9 +120,10 @@ public class MainActivity extends FragmentActivity implements
         setListener();
         paagee=false;
         Log.i("brad",""+paagee);
+        if (db==null) {
+            db= DBHelper.getInstance(this).getWritableDatabase();
+        }
     }
-
-
 
     private void changepage() {
         paagee = true;
@@ -231,7 +231,7 @@ public class MainActivity extends FragmentActivity implements
 
         // attach to current activity;
         resideMenu = new ResideMenu(this);
-        resideMenu.setBackground(R.drawable.test);
+        resideMenu.setBackground(R.drawable.a05);
         resideMenu.attachToActivity(this);
 
         resideMenu.setMenuListener(menuListener);

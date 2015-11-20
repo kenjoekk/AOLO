@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/libs/nineoldandroids-library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-dfe3790d508f9968ba7aa1ff364c5ec25c2bb69b.jar" />
-    </item>
-    <item
-        jar="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/libs/volley.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b06fd24c136011eeeb24ac056623c93fdd53b5fa">
-        <dex dex="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/pre-dexed/debug/volley-7b0f69b42fd9b0d12917ac701b90c270ada5ec6e.jar" />
-    </item>
-    <item
-        jar="/Users/joseph/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="/Users/ChiaChia/Documents/AndroidSDK/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-1deb667a6e901252860306cacdde6b15e8aa30bc.jar" />
+        <dex dex="/Users/ChiaChia/GitHub/AOLO＿new/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7126a181683816e55907cdd5c76eaf0b303aa27e.jar" />
+    </item>
+    <item
+        jar="/Users/ChiaChia/GitHub/AOLO＿new/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b06fd24c136011eeeb24ac056623c93fdd53b5fa">
+        <dex dex="/Users/ChiaChia/GitHub/AOLO＿new/app/build/intermediates/pre-dexed/debug/volley-42ac335555cdf839c213aeb6d41e56d4e437050b.jar" />
+    </item>
+    <item
+        jar="/Users/ChiaChia/GitHub/AOLO＿new/app/libs/nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/ChiaChia/GitHub/AOLO＿new/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-d4d23df9c795a490b4c2b631b5d64f988078a4d8.jar" />
     </item>
 
 </items>
