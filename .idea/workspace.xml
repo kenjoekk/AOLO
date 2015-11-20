@@ -22,105 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="615ef9d9-952c-4a78-b347-4dcc8614d329" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/library/activity/R.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_exit.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_exit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_in.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_in_start.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_in_start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_out.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_out_start.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/activity_move_out_start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_share.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_share.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_start.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_startrun.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_startrun.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/ben_guan_gai_kuang.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/ben_guan_gai_kuang.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/button_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/button_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/dang_qian_jie_yue.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/dang_qian_jie_yue.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/dl_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/dl_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/dong_tai.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/dong_tai.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/fa_xian.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/fa_xian.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/fade_in.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/fade_out.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_c_routine.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_c_routine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_cmd_routine.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_cmd_routine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_cmd_routine_list.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_cmd_routine_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_findfriend.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_findfriend.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_friend.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_friend.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_identity.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_identity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_like_routine.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_like_routine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_like_routine_list.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_like_routine_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_rank.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_rank.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_recode.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_recode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_ridebike.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_ridebike.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_routine.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_routine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_society.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_society.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/grzx_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/grzx_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/guan_cang_bu_ju.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/guan_cang_bu_ju.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/gui_zhang_zhi_du.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/gui_zhang_zhi_du.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_diagnose_top_tab_bg_center_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_diagnose_top_tab_bg_center_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_diagnose_top_tab_bg_left_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_diagnose_top_tab_bg_left_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_diagnose_top_tab_bg_right_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_diagnose_top_tab_bg_right_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_scan_top_tab_bg_center_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/hair_scan_top_tab_bg_center_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/hu_dong_fragment2.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/hu_dong_fragment2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/jie_yue_li_shi.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/jie_yue_li_shi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/kai_fang_shi_jian.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/kai_fang_shi_jian.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/land_pause.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/land_pause.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/li_shi_yan_ge.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/li_shi_yan_ge.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/list_content.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/list_content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mm_submenu.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mm_submenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/one.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/one.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/preference_first_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/preference_first_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/preference_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/preference_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/preference_last_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/preference_last_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/push_top_in2.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/push_top_in2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/push_top_out2.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/push_top_out2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_new_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_new_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_recomm_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_recomm_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_topic_all_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_topic_all_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_topic_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_topic_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_zone_hot_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/radio_zone_hot_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/rankall.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/rankall.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/rankfriend.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/rankfriend.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/recordmonthlist.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/recordmonthlist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/recordtimeslist.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/recordtimeslist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/residemenu.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/residemenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/residemenu_info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/residemenu_info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/residemenu_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/residemenu_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/splash.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/splash_button.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/splash_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/start.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sy_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sy_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/textcolor.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/textcolor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/textview.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/textview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/three.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/three.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/titie_header_hudong.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/titie_header_hudong.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/titlebar_menu_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/titlebar_menu_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/tong_zhi.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/tong_zhi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/two.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/two.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw720dp-land/values-sw720dp-land.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw720dp-land/values-sw720dp-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/wei_zhang_jiao_kuan.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/wei_zhang_jiao_kuan.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wp_text_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wp_text_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/xin_sheng_dao_hang.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/xin_sheng_dao_hang.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/xx_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/xx_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/zc_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/zc_selector.xml" />
     </list>
     <ignored path="AOLO＿new.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1944,7 +1846,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448017822173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增modelDBHelper, MyApplication, MySqlIO,SqliteIO">
+      <created>1448018946274</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1448018946274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
