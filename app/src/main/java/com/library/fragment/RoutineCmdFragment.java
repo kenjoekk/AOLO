@@ -24,6 +24,7 @@ public class RoutineCmdFragment extends Fragment {
 	private static final int[] toCmd={R.id.routineCmdImg,R.id.routineCmdTitle,R.id.routineCmdLength,R.id.routineCmdBuilder};
 	private LinkedList<Map<String,String>> rDataCmd=new LinkedList<Map<String, String>>();
 
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {

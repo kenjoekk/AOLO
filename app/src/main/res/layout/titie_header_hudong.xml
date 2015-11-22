@@ -7,7 +7,9 @@
        
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:background="#000000"
+        >
 
          <RelativeLayout
             android:layout_width="match_parent"
@@ -63,6 +65,7 @@
             android:layout_toRightOf="@+id/title_bar_left_menu"
             android:background="@drawable/tab_bg"
             android:orientation="horizontal" >
+
 
             <RadioButton
                 android:id="@+id/rbTongZhi"

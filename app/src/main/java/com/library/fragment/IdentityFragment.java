@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ListView;
 
 import com.library.activity.R;
 import com.library.activity.R.layout;
@@ -16,12 +17,16 @@ import com.library.activity.StartActivity;
 public class IdentityFragment extends Fragment {
 
 	private ImageView iv_add;
+	private ListView list_identity;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(layout.fragment_identity,
 				container, false);
+
+		//list_identity=(ListView)view.findViewById(R.id.list_identity);
+
 		iv_add = (ImageView) view.findViewById(R.id.iv_add);
 
 		// 点击右边显示
@@ -38,6 +43,8 @@ public class IdentityFragment extends Fragment {
 		});
 
 		return view;
+
+
 	}
 
 	@Override
@@ -49,6 +56,7 @@ public class IdentityFragment extends Fragment {
 
 		}
 	}
+
 
 
 

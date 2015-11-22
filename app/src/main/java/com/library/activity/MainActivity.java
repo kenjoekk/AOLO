@@ -20,12 +20,10 @@ import android.widget.Toast;
 
 import com.library.fragment.IdentityFragment;
 import com.library.fragment.RankFragment;
-import com.library.fragment.RecodeFragment;
 import com.library.fragment.RideBikeFragment;
 import com.library.fragment.RoutineFragment;
+import com.library.fragment.RecodeFragment;
 import com.library.fragment.SocietyFragment;
-import com.library.model.MySqlIO;
-import com.library.model.SqliteIO;
 import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 
@@ -60,8 +58,6 @@ public class MainActivity extends FragmentActivity implements
     public boolean paagee =true;
 
 
-
-
     DisplayMetrics dm = new DisplayMetrics();
     int Width, Height;
 /* private ResideMenuInfo info; */
@@ -70,7 +66,11 @@ public class MainActivity extends FragmentActivity implements
 
     private boolean is_closed = false;
     private long mExitTime;
+
+
     private String PIN;
+
+
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -104,6 +104,9 @@ public class MainActivity extends FragmentActivity implements
         changeFragment(new RideBikeFragment());
         PIN = Build.SERIAL;
         Log.i("brad",""+paagee);
+
+
+
         new LoginPostThread().start();
 
         this.getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -118,19 +121,9 @@ public class MainActivity extends FragmentActivity implements
         setListener();
         paagee=false;
         Log.i("brad",""+paagee);
-
-        //TODO:刪掉它
-        SqliteIO io=new SqliteIO();
-//        io.writeIntoSQLite();
-//        Cursor cursor=io.testTest();
-//        while (cursor.moveToNext()){
-//            int cus_id= cursor.getInt(cursor.getColumnIndex("cus_id"));
-//            Log.i("test", ""+cus_id);
-//        }
-        MySqlIO mio=new MySqlIO();
-//        io.queryCustomer();
-        mio.updatePal();
     }
+
+
 
     private void changepage() {
         paagee = true;

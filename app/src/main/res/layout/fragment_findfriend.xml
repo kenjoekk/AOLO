@@ -9,6 +9,7 @@
     tools:context=".DongTaiFragment"
     android:orientation="vertical"
     android:weightSum="1"
+
     >
 
     <TextView
@@ -16,16 +17,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="50sp"
-        android:text="NFC" />
+        android:text="NFC"
+        android:textColor="#ffffff"
+        />
     <TextView
         android:layout_weight="0.1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="FB使用AOLO的好友"
         android:textSize="20sp"
+        android:textColor="#ffffff"
         />
 
     <ListView
+        android:layout_margin="20sp"
         android:id="@+id/addFriend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
