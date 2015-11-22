@@ -1,6 +1,7 @@
 package com.library.activity;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -20,10 +21,11 @@ import android.widget.Toast;
 
 import com.library.fragment.IdentityFragment;
 import com.library.fragment.RankFragment;
+import com.library.fragment.RecodeFragment;
 import com.library.fragment.RideBikeFragment;
 import com.library.fragment.RoutineFragment;
-import com.library.fragment.RecodeFragment;
 import com.library.fragment.SocietyFragment;
+import com.library.model.SqliteIO;
 import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 
@@ -58,6 +60,8 @@ public class MainActivity extends FragmentActivity implements
     public boolean paagee =true;
 
 
+
+
     DisplayMetrics dm = new DisplayMetrics();
     int Width, Height;
 /* private ResideMenuInfo info; */
@@ -66,11 +70,7 @@ public class MainActivity extends FragmentActivity implements
 
     private boolean is_closed = false;
     private long mExitTime;
-
-
     private String PIN;
-
-
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -104,9 +104,6 @@ public class MainActivity extends FragmentActivity implements
         changeFragment(new RideBikeFragment());
         PIN = Build.SERIAL;
         Log.i("brad",""+paagee);
-
-
-
         new LoginPostThread().start();
 
         this.getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -121,9 +118,20 @@ public class MainActivity extends FragmentActivity implements
         setListener();
         paagee=false;
         Log.i("brad",""+paagee);
+
+        //先開這個
+//        MySqlIO mio=new MySqlIO();
+//        mio.queryCustomer("1");
+        //再開這個
+        SqliteIO io=new SqliteIO();
+        Cursor c=io.getUserProfile();
+
+        while (c.moveToNext()) {
+           
+            String NAME=c.getString(c.getColumnIndex("cus_name"));
+            Log.i("KK",NAME);
+       }
     }
-
-
 
     private void changepage() {
         paagee = true;
@@ -398,8 +406,8 @@ public class MainActivity extends FragmentActivity implements
                     super.onBackPressed();
                 }
             } else {
-                   // resideMenu.closeMenu();
-                    finish();
+                // resideMenu.closeMenu();
+                finish();
             }
             return true;
         }

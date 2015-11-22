@@ -93,6 +93,10 @@
             android:name="com.library.activity.Data"
             android:label="@string/Data" >
         </activity>
+        <activity
+            android:name="com.library.activity.LoginwithFB"
+            android:label="@string/Data" >
+        </activity>
     </application>
 
 </manifest>

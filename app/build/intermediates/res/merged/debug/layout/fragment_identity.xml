@@ -7,7 +7,7 @@
 
     >
     <LinearLayout
-       
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
@@ -27,7 +27,7 @@
                 android:layout_centerVertical="true"
                 android:paddingLeft="11.0dip"
                 android:paddingRight="11.0dip"
-                android:src="@drawable/icon_profile" 
+                android:src="@drawable/icon_profile"
                 android:onClick="onClickLiftMenu"
                  />
             <ImageView
@@ -39,9 +39,9 @@
                 android:paddingLeft="11.0dip"
                 android:paddingRight="11.0dip"
                 android:src="@drawable/add"
-                
+
                 />
-            
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
@@ -54,7 +54,7 @@
                 android:textSize="20dp"
                 />
 
-           
+
         </RelativeLayout>
 <ScrollView
     android:layout_width="match_parent"
@@ -121,6 +121,7 @@
 
                         />
             <TextView
+                android:id="@+id/id_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ID:"
@@ -143,6 +144,7 @@
                     android:background="@drawable/identity_record_bg2"
                     >
                 <TextView
+                    android:id="@+id/id_rank"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="RANK:"
@@ -151,6 +153,7 @@
                     android:textColor="#ffffff"
                     android:layout_centerInParent="true"
                     android:layout_alignParentBottom="true"
+
                     />
                 </RelativeLayout>
                 <RelativeLayout
@@ -163,6 +166,7 @@
 
                     >
                 <TextView
+                    android:id="@+id/id_score"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SCORE:"
@@ -199,7 +203,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:textSize="20sp"
-                    android:text="平均\n距離"
+                    android:text="總里程:"
+                    android:gravity="center_vertical"
                     android:textColor="#ffffff"
 
 
@@ -208,7 +213,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
-                        android:textSize="26sp"
+                        android:textSize="23sp"
                         android:text="100km"
                         android:gravity="center_vertical"
                         android:textColor="#ffffff"
@@ -229,7 +234,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
                         android:textSize="20sp"
-                        android:text="平均\n速度"
+                        android:text="均速:"
+                        android:gravity="center_vertical"
                         android:textColor="#ffffff"
 
 
@@ -239,7 +245,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
-                        android:textSize="26sp"
+                        android:textSize="23sp"
                         android:text="15km/h"
                         android:gravity="center_vertical"
                         android:textColor="#ffffff"
@@ -279,14 +285,20 @@
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
                             android:layout_weight="1"
-                            android:text="test"
+                            android:text="任務達成次數"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:gravity="center"
                             android:background="@drawable/identity_title_bg"
                             />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
                             android:layout_weight="2"
-                            android:text="test"
+                            android:text="10次/月"
+                            android:textColor="#ffffff"
+                            android:gravity="center"
+                            android:textSize="20dp"
                             android:background="@drawable/identity_title_bg2"
                             />
 
@@ -306,14 +318,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:text="test"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="總次數："
                         android:background="@drawable/identity_title_bg"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_weight="2"
-                        android:text="test"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="10次/月"
                         android:background="@drawable/identity_title_bg2"
                         />
 
@@ -333,14 +351,53 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:text="test"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="最快記錄："
                         android:background="@drawable/identity_title_bg"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_weight="2"
-                        android:text="test"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="12min/km"
+                        android:background="@drawable/identity_title_bg2"
+                        />
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="最遠記錄："
+                        android:background="@drawable/identity_title_bg"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="42km"
                         android:background="@drawable/identity_title_bg2"
                         />
 
@@ -360,6 +417,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
                         android:text="test"
                         android:background="@drawable/identity_title_bg"
                         />
@@ -367,37 +427,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_weight="2"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:gravity="center"
                         android:text="test"
                         android:background="@drawable/identity_title_bg2"
                         />
-
-
-                </LinearLayout>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#00000000"
-
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_weight="1"
-                        android:text="test"
-                        android:background="@drawable/identity_title_bg"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_weight="2"
-                        android:text="test"
-                        android:background="@drawable/identity_title_bg2"
-                        />
-
 
                 </LinearLayout>
 
@@ -412,10 +447,10 @@
         </RelativeLayout>
 </ScrollView>
     </LinearLayout>
-    
-    
-    
-   
+
+
+
+
 
 </LinearLayout>
 <!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_identity.xml -->

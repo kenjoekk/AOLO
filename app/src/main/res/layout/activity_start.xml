@@ -39,7 +39,7 @@
             android:layout_centerHorizontal="true"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/land_background_test4">
+            android:background="@drawable/test_background">
 
 
             <RadioButton

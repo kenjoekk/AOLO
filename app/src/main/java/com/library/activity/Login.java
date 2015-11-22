@@ -30,7 +30,7 @@ import java.util.ArrayList;
 
 public class Login extends Activity {
 
-	
+
 	private String strAccount, strPasswd;
 	private String PIN;
 	private EditText account,passwd;
@@ -100,9 +100,21 @@ public class Login extends Activity {
 			new LoginPostThread().start();
 		}
 	}
-	
-	
-private class LoginPostThread extends Thread {
+	public void LoginwithFB(View v){
+		Intent it=new Intent(this,LoginwithFB.class);
+		startActivity(it);
+		Log.i("KK","FBbt");
+	}
+
+//	@Override
+//	public void startActivityForResult(Intent intent, int requestCode) {
+//		super.startActivityForResult(intent, requestCode);
+//		if(requestCode==1){
+//			finish();
+//		}
+//	}
+
+	private class LoginPostThread extends Thread {
 		
 
 		public LoginPostThread() {

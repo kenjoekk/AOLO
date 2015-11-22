@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:2:1-103:12
+ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:2:1-107:12
 	package
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml
@@ -15,6 +15,7 @@ ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/m
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
 	android:targetSdkVersion
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml
@@ -32,7 +33,7 @@ ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/m
 	android:name
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:12:22-76
 application
-ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:14:5-101:19
+ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:14:5-105:19
 	android:label
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:18:9-41
 	android:allowBackup
@@ -163,3 +164,9 @@ ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/m
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:99:13-41
 	android:name
 		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:98:13-53
+activity#com.library.activity.LoginwithFB
+ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:101:9-104:20
+	android:label
+		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:103:13-41
+	android:name
+		ADDED from /Users/joseph/Documents/Android studio model/AOLO_ver4/AOLO/app/src/main/AndroidManifest.xml:102:13-60
