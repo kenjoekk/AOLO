@@ -1,7 +1,6 @@
 package com.library.activity;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -25,7 +24,8 @@ import com.library.fragment.RecodeFragment;
 import com.library.fragment.RideBikeFragment;
 import com.library.fragment.RoutineFragment;
 import com.library.fragment.SocietyFragment;
-import com.library.model.DBHelper;
+import com.library.model.MySqlIO;
+import com.library.model.SqliteIO;
 import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 
@@ -58,7 +58,8 @@ public class MainActivity extends FragmentActivity implements
     private ResideMenuItem itemXiangce;
     private ResideMenuItem itemShare;
     public boolean paagee =true;
-    private SQLiteDatabase db;
+
+
 
 
     DisplayMetrics dm = new DisplayMetrics();
@@ -103,9 +104,6 @@ public class MainActivity extends FragmentActivity implements
         changeFragment(new RideBikeFragment());
         PIN = Build.SERIAL;
         Log.i("brad",""+paagee);
-
-
-
         new LoginPostThread().start();
 
         this.getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -120,9 +118,18 @@ public class MainActivity extends FragmentActivity implements
         setListener();
         paagee=false;
         Log.i("brad",""+paagee);
-        if (db==null) {
-            db= DBHelper.getInstance(this).getWritableDatabase();
-        }
+
+        //TODO:刪掉它
+        SqliteIO io=new SqliteIO();
+//        io.writeIntoSQLite();
+//        Cursor cursor=io.testTest();
+//        while (cursor.moveToNext()){
+//            int cus_id= cursor.getInt(cursor.getColumnIndex("cus_id"));
+//            Log.i("test", ""+cus_id);
+//        }
+        MySqlIO mio=new MySqlIO();
+//        io.queryCustomer();
+        mio.updatePal();
     }
 
     private void changepage() {
