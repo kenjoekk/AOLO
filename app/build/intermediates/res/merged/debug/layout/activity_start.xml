@@ -1,48 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
 
     >
-    <Button
-        android:id="@+id/set"
-        android:onClick="set"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:text="SET"
 
-        />
-    <Button
-        android:id="@+id/start"
-        android:onClick="start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/set"
-        android:layout_alignParentBottom="true"
-        android:text="START"
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/land_background_test6"
 
-        />
-    <Button
-        android:id="@+id/missionNormal"
-        android:onClick="missionNormal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/start"
-        android:layout_alignParentBottom="true"
-        android:text="MissionNormal"
+        >
 
-        />
-    <Button
-        android:id="@+id/missionRoad"
-        android:onClick="missionRoad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/missionNormal"
-        android:layout_alignParentBottom="true"
-        android:text="MissionRoad"
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/transparent"/>
+    </RelativeLayout>
 
-        />
 
-</RelativeLayout><!-- From: file:/Users/ChiaChia/GitHub/AOLO＿new/app/src/main/res/layout/activity_start.xml -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/land_background_test4">
+
+
+            <RadioButton
+                android:id="@+id/one"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/radio_bg"
+                android:button="@null"
+                android:padding="10dip"
+                android:layout_margin="15dp"
+
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/radio_bg"
+                android:button="@null"
+                android:padding="10dip"
+                android:layout_margin="15dp"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/three"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/radio_bg"
+                android:button="@null"
+                android:padding="10dip"
+                android:layout_margin="15dp"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/four"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/radio_bg"
+                android:button="@null"
+                android:padding="10dip"
+                android:layout_margin="15dp"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/activity_start.xml -->

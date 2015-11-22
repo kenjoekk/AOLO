@@ -7,7 +7,9 @@
        
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:background="#000000"
+        >
 
          <RelativeLayout
             android:layout_width="match_parent"
@@ -64,6 +66,7 @@
             android:background="@drawable/tab_bg"
             android:orientation="horizontal" >
 
+
             <RadioButton
                 android:id="@+id/rbTongZhi"
                 android:layout_width="0.0dip"
@@ -96,4 +99,4 @@
    
 
 </LinearLayout>
-<!-- From: file:/Users/ChiaChia/GitHub/AOLO＿new/app/src/main/res/layout/titie_header_hudong.xml -->
+<!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/titie_header_hudong.xml -->

@@ -4,4 +4,4 @@
     <item android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/ic_preference_pressed" />
     <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/ic_preference_pressed" />
     <item android:drawable="@drawable/ic_preference_normal" />
-</selector><!-- From: file:/Users/ChiaChia/GitHub/AOLO＿new/app/src/main/res/drawable/preference_item.xml -->
+</selector><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/drawable/preference_item.xml -->

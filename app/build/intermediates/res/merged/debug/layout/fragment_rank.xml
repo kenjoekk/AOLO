@@ -41,15 +41,7 @@
 
                 />
 
-            <!--<RadioGroup-->
-            <!--android:id="@+id/radioGroup_jieyue"-->
-            <!--android:layout_width="fill_parent"-->
-            <!--android:layout_height="30.0dip"-->
-            <!--android:layout_marginBottom="7.5dip"-->
-            <!--android:layout_toLeftOf="@+id/iv_add"-->
-            <!--android:layout_toRightOf="@+id/title_bar_left_menu"-->
-            <!--android:background="@drawable/tab_bg"-->
-            <!--android:orientation="horizontal" >-->
+
 
             <TextView
                 android:id="@+id/logo"
@@ -68,7 +60,7 @@
             android:id="@+id/radioGroup_jieyue"
             android:layout_width="fill_parent"
             android:layout_height="30.0dip"
-            android:layout_marginBottom="7.5dip"
+
             android:layout_below="@+id/logo"
             android:background="#000000"
             android:orientation="horizontal" >
@@ -102,8 +94,11 @@
             android:id="@+id/vp_rank"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_below="@+id/hair_topic_layout" />
+            android:layout_below="@+id/hair_topic_layout"
+            android:background="@drawable/bgtest"
+
+            />
 
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/Users/ChiaChia/GitHub/AOLO＿new/app/src/main/res/layout/fragment_rank.xml -->
+</RelativeLayout><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/AOLO_ver4/AOLO/app/src/main/res/layout/fragment_rank.xml -->
